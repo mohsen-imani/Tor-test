@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 '''
-This code uses our modified Tor to download objects from a destination. We modified the Tor to use only the exit relays that *only* suppert exit to port 80 and 443. We want to measure whether the using port specification based on the traffic improve the performance or not. For exmaple, how selecting the circuti's exit nodes among those relays that only support ports 80 and 443 affects the performance.
+This code uses our modified Tor to download objects from a destination. We modified the Tor to use only the exit relays that *only* suppert exit to port 80 and 443. We want to measure whether using the port specification based on the traffic improves the performance or not. For exmaple, how selecting the circuti's exit nodes among those relays that only support ports 80 and 443 affects the performance.
 
-The code lauchs the Tor, starta download the object from the given address, kills the Tor process, and starts the proccess again.
+The code launchs the Tor, starts downloading the object from the given address, kills the Tor process, and starts the proccess again.
 
 '''
 
